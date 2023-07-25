@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {BiHomeCircle, BiUser} from 'react-icons/bi';
-import {BsBell, BsBookmark, BsThreeDots, BsTwitter} from 'react-icons/bs';
+import {BsBell, BsBookmark, BsThreeDots, BsDot, BsTwitter} from 'react-icons/bs';
 import {HiOutlineHashtag} from 'react-icons/hi';
 import {HiEnvelope} from 'react-icons/hi2';
 
