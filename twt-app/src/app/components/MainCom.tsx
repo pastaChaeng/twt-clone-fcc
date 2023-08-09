@@ -5,11 +5,11 @@ import {IoShareOutline, IoStatsChartSharp} from 'react-icons/io5';
 
 const MainCom = () => {
   return (
-    <div className="w-full h-full flex justify-center items-center relative bg-black ">
+    <div className="flex max-w-[600px]w-full h-full flex justify-center items-center relative bg-black ">
       <div className="max-w-screen-xl w-full h-full flex relative">
        {/* left sidebar nav */}
         <LeftSidebar />
-        <main className="ml-[275px] flex w-full max-w-[600px] h-full min-h-screen flex-col border-l-[0.5px] 
+        <main className="ml-[275px] flex w-full  h-full min-h-screen flex-col border-l-[0.5px] 
         border-r-[0.5px] border-gray-600">
         <h1 className="text-xl font-bold p-6 backdrop-blur bg-black/10 sticky top-0">Home</h1>
         <div className="border-t-[0.5px] px-4 border-b-[0.5px] flex items-stretch py-6 space-x-2 border-gray-600 relative">

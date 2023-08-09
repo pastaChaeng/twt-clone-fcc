@@ -40,7 +40,7 @@ const LeftSidebar = () => {
   return (
       <div>
       {/* left sidebar nav/header*/}
-      <section className='fixed w-[275px] flex flex-col items-stretch h-screen px-6'>
+      <section className='absolute left-0 w-[275px] flex flex-col items-stretch h-screen px-6'>
         <div className="flex flex-col items-stretch h-full space-y-4 mt-4">
       {
         NAVIGATION_ITEMS.map((item)=>(
