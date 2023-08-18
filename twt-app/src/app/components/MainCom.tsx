@@ -5,7 +5,7 @@ import {IoShareOutline, IoStatsChartSharp} from 'react-icons/io5';
 
 const MainCom = () => {
   return (
-    <div className="flex max-w-[600px]w-full h-full flex justify-center items-center relative bg-black ">
+    <main className="flex w-full h-full flex justify-center items-center relative bg-black ">
       <div className="max-w-screen-xl w-full h-full flex relative">
        {/* left sidebar nav */}
         <LeftSidebar />
@@ -52,11 +52,11 @@ const MainCom = () => {
                     pala hayzz..</div>
                         <div className="bg-slate-400 aspect-square w-full h-80 rounded-xl mt-2"></div>
                     <div className="flex items-center justify-start space-x-20 mt-2 w-full">
-                      <div className="rounded-full hover:bg-pink-700 transition duration-200 p-2 cursor-pointer"><BsChat className="hover:bg-pink-700"/></div>
-                      <div className="rounded-full hover:bg-white/10 transition duration-200 p-2 cursor-pointer"><AiOutlineRetweet/></div>
-                      <div className="rounded-full hover:bg-white/10 transition duration-200 p-2 cursor-pointer"><AiOutlineHeart/></div>
-                      <div className="rounded-full hover:bg-white/10 transition duration-200 p-2 cursor-pointer"><IoStatsChartSharp/></div>
-                      <div className="rounded-full hover:bg-white/10 transition duration-200 p-2 cursor-pointer"><IoShareOutline/></div>
+                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><BsChat className="text-pink-900"/></div>
+                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><AiOutlineRetweet className="text-pink-900"/></div>
+                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><AiOutlineHeart className="text-pink-900"/></div>
+                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><IoStatsChartSharp className="text-pink-900"/></div>
+                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><IoShareOutline className="text-pink-900"/></div>
                     </div>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const MainCom = () => {
         </main>
         {/* left sidebar nav */}
       </div>
-    </div>
+    </main>
   );
 };
 

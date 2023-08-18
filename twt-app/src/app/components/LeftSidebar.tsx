@@ -1,5 +1,5 @@
 import Link from "next/link";
-import {BiHomeCircle, BiUser} from 'react-icons/bi';
+import {BiUser, BiHomeCircle} from 'react-icons/bi';
 import {BsBell, BsBookmark, BsThreeDots, BsDot, BsTwitter} from 'react-icons/bs';
 import {HiOutlineHashtag} from 'react-icons/hi';
 import {HiEnvelope} from 'react-icons/hi2';
@@ -49,7 +49,7 @@ const LeftSidebar = () => {
           href={'/${item.title.toLowerCase()}'} 
           key={item.title}>
             <div>
-              <item.icon/>
+              <item.icon className="w-10 h-10"/>
             </div>
               {
                 item.title !== "Twitter" && <div>{item.title}</div>
@@ -57,7 +57,7 @@ const LeftSidebar = () => {
           </Link>
         ))
       }
-      <button className="rounded-full m-4 bg-primary p-4 text-2xl text-center hover:bg-opacity-70 transition duration-200">Tweet</button>
+      <button className="rounded-full m-4 bg-primary p-4 text-2xl text-center hover:bg-opacity-70 transition duration-200 font-bold">Post</button>
       </div>
       <button className="rounded-full flex items-center space-x-2 m-4 bg-transparent p-4 text-center hover:bg-white/10
       transition duration-200 w-full justify-between">
