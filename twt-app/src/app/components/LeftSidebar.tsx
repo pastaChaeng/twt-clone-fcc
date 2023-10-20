@@ -1,23 +1,25 @@
 import Link from "next/link";
 import {BiUser, BiHomeCircle} from 'react-icons/bi';
-import {BsBell, BsBookmark, BsThreeDots, BsDot, BsTwitter} from 'react-icons/bs';
+import {BsBell, BsBookmark, BsThreeDots, BsDot } from 'react-icons/bs';
 import {HiOutlineHashtag} from 'react-icons/hi';
 import {HiEnvelope} from 'react-icons/hi2';
+import {RiTwitterXLine} from 'react-icons/ri';
+
 
 const NAVIGATION_ITEMS = [
   {
     title:'Twitter',
-    icon:BsTwitter
+    icon:RiTwitterXLine
   },
   {
     title:'Home',
-    icon:BiHomeCircle
+    icon:BiHomeCircle 
   },
   {
     title:'Explore',
     icon:HiOutlineHashtag
   },
-  {
+  { 
     title:'Notification',
     icon:BsBell
   },

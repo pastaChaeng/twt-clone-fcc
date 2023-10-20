@@ -1,11 +1,11 @@
-import LeftSidebar from './LeftSidebar.tsx';
+import LeftSidebar from './LeftSidebar';
 import {BsDot, BsChat, BsThreeDots} from 'react-icons/bs';
 import {AiOutlineRetweet, AiOutlineHeart,} from 'react-icons/ai';
 import {IoShareOutline, IoStatsChartSharp} from 'react-icons/io5';
 
 const MainCom = () => {
   return (
-    <main className="flex w-full h-full flex justify-center items-center relative bg-black ">
+    <main className=" w-full h-full flex justify-center items-center relative bg-black ">
       <div className="max-w-screen-xl w-full h-full flex relative">
        {/* left sidebar nav */}
         <LeftSidebar />
@@ -52,11 +52,11 @@ const MainCom = () => {
                     pala hayzz..</div>
                         <div className="bg-slate-400 aspect-square w-full h-80 rounded-xl mt-2"></div>
                     <div className="flex items-center justify-start space-x-20 mt-2 w-full">
-                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><BsChat className="text-pink-900"/></div>
+                      <div className="rounded-full hover:bg-green-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><BsChat className="text-green-900"/></div>
                       <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><AiOutlineRetweet className="text-pink-900"/></div>
                       <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><AiOutlineHeart className="text-pink-900"/></div>
-                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><IoStatsChartSharp className="text-pink-900"/></div>
-                      <div className="rounded-full hover:bg-pink-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><IoShareOutline className="text-pink-900"/></div>
+                      <div className="rounded-full hover:bg-blue-700 hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><IoStatsChartSharp className="text-blue-900"/></div>
+                      <div className="rounded-full hover:bg-white  hover:bg-opacity-10 transition duration-200 p-2 cursor-pointer"><IoShareOutline className="text-white"/></div>
                     </div>
                   </div>
                 </div>

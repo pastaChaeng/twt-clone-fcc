@@ -1,8 +1,6 @@
 import LeftSidebar from "./components/LeftSidebar";
 import MainCom  from "./components/MainCom";
-import { BsSearch } from "react-icons/bs";
-
-
+import { BsSearch } from "react-icons/bs"; 
 const Home = () => {
   return (
     <div className="w-full h-full flex justify-center items-center relative bg-black">
